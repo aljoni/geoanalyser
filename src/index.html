@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GeoAnalyser</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css"
+        type="text/css" />
+    <link rel="stylesheet" href="css/geoanalyser.css" type="text/css" />
+    <script defer
+        src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+    <script defer type="application/javascript" src="js/GPXParser.min.js"></script>
+    <script defer type="application/javascript" src="js/geoanalyser.js"></script>
+</head>
+
+<body>
+    <div class="map" id="map"></div>
+    <div class="controls">
+        <label for="gpx_line" class="lbl_line">Line (.gpx):</label>
+        <input type="file" id="gpx_line" />
+        <label for="gpx_track" class="lbl_track">Track (.gpx):</label>
+        <input type="file" id="gpx_track" />
+        <button id="process">Process</button>
+        <span class="result" id="result"></span>
+    </div>
+    <div class="disclaimer">This tool has not been extensively tested, stability is not guaranteed.</div>
+</body>
+
+</html>
