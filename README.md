@@ -1,6 +1,6 @@
 # GeoAnalyser
 
-A tool for analysing how one GPS path is compared to another.  The tool can be used online here: [geo.aljoni.uk](//geo.aljoni.uk).
+A tool for analysing how one GPS path is compared to another.  The tool can be used online here: [GeoAnalyser](https://aljoni.github.io/p/geoanalyser).
 
 Some example `line.gpx` and `track.gpx` files can be found in the root of this repository.
 
