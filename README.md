@@ -1,6 +1,6 @@
 # GeoAnalyser
 
-A tool for analysing how one GPS path is compared to another.  The tool can be used online here: [geo.aljoni.uk](geo.aljoni.uk).
+A tool for analysing how one GPS path is compared to another.  The tool can be used online here: [geo.aljoni.uk](//geo.aljoni.uk).
 
 ---
 
